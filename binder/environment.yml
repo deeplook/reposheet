@@ -1,8 +1,15 @@
-name: example-environment
+name: reposheet-environment
 channels:
   - conda-forge
 dependencies:
+  - appmode
   - jupyterlab
+  - pip
+  - pip:
+    - memoization
+  - PyGithub
+  - python-gitlab
   - python==3.8.5
   - qgrid
+  - tqdm
   - voila
