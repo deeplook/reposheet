@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - appmode
-  - jupyterlab
+  - jupyterlab==4.0.7
   - pip
   - pip:
     - memoization
