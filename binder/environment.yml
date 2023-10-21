@@ -1,4 +1,4 @@
-name: reposheet-environment
+xxtname: reposheet-environment
 channels:
   - conda-forge
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - memoization
   - PyGithub
   - python-gitlab
-  - python==3.8.5
+  - python==3.11.6
   - qgrid
   - tqdm
   - voila
